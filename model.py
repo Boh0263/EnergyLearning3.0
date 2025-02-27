@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 import numpy as np
 
-# Caricarmento del dataset
+# Caricamento del dataset
 file_path = 'EnergyLearningLocal.MonthlyScansFlattened-IT.json'
 with open(file_path, 'r') as f:
     data = json.load(f)
